@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Dancing+Script&family=Merriweather:wght@300&family=Source+Sans+Pro:ital, wght@1, 2 00&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(26 25 25);
+    /* overflow: hidden; */
+    z-index: +1;
+
+}
+
+.left {
+    font-size: 2.1rem;
+    color: rgb(148 160 196);
+}
+
+.right ul {
+    display: flex;
+    /* margin: 0 20px; */
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 21px;
+}
+
+.right ul li:hover {
+    cursor: pointer;
+    color: #919a97;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    /* overflow: hidden; */
+
+}
+
+
+.leftSection {
+    width: 40vw;
+    position: relative;
+    top: 32vh;
+    left: 9vw;
+    font-size: 40px;
+
+}
+
+
+.hk {
+    color: #9c6464;
+}
+
+/* .dev{
+    font-size: 36px;
+    position: relative;
+    left: 0vw;
+    top: 2vh;
+} */
+
+#web {
+    font-size: 36px;
+    position: relative;
+    left: 0vw;
+    color: #68689b;
+    /* top: 4vh; */
+}
+
+.btn {
+    background-color: #1b1c1f;
+    position: relative;
+    top: 59vh;
+    left: -34vw;
+    width: 13vw;
+    height: 7vh;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    background-color: #353638;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 20vw;
+    position: relative;
+    top: 22vh;
+    right: 18vw;
+    border-radius: 170px
+}
+
+hr {
+    position: relative;
+    top: 30vh;
+}
+
+.secondSection {
+    position: relative;
+    top: 31vh;
+    height: 70vh;
+    /* overflow: hidden; */
+}
+
+
+
+.secondSection h1 {
+    font-size: 35px;
+    left: 4vw;
+    position: relative;
+    color: #146eaf;
+
+}
+
+.box {
+    width: 84vw;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    left: 7vw;
+}
+
+.vertical {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box1 {
+    width: 1px;
+    height: 90px;
+    background-color: white;
+}
+
+.school {
+    width: 17%;
+    position: relative;
+    left: 16vw;
+    top: -2vh;
+    text-align: center;
+}
+
+.clg {
+    width: 15%;
+    position: absolute;
+    left: 66.5vw;
+    top: 19vh;
+    text-align: center;
+}
+
+.thirdSection {
+    position: relative;
+    top: 60vh;
+    height: 60vh;
+    /* overflow: hidden; */
+
+}
+
+.Project {
+    font-size: 39px;
+    color: #146eaf;
+    position: relative;
+    top: -27vh;
+    left: 4vw;
+    font-weight: 700;
+}
+
+.box2 {
+    height: 2px;
+    width: 84vw;
+    background-color: white;
+    position: relative;
+    top: -23vh;
+    left: 7vw;
+}
+
+.more {
+    position: relative;
+    top: -22vh;
+    left: 9vw;
+    font-size: 29px;
+
+}
+
+.more span {
+    color: red;
+    font-family: cursive;
+}
+
+.git {
+    color: #946b6b;
+    text-decoration: none;
+}
+
+.git:hover {
+    color: #c27979;
+}
+
+.fourthSection {
+    position: relative;
+    top: 33vh;
+    height: 100vh;
+    left: 4vw;
+    /* overflow: hidden; */
+}
+
+.cont {
+    font-size: 39px;
+    color: #146eaf;
+    position: relative;
+    top: -3vh;
+    /* font-weight: 100; */
+    left: 0vw;
+}
+
+.box3 {
+    height: 2px;
+    width: 84vw;
+    background-color: white;
+    position: relative;
+    top: -4vh;
+    left: 3vw;
+}
+
+.head {
+    font-size: 55px;
+    position: relative;
+    top: -6vh;
+    left: 34vw;
+    font-family: cursive;
+    color: #287ec6;
+}
+
+.mobile {
+    border: 2px solid white;
+    height: 17vh;
+    width: 36vw;
+    position: relative;
+    top: -5vh;
+    left: 27vw;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 22px;
+    background: #2a386c;
+}
+
+.mobile img{
+    width: 46px;
+    height: 46px;
+    position: relative;
+    top: 1vh;
+}
+
+.email {
+    border: 2px solid white;
+    height: 17vh;
+    width: 36vw;
+    position: relative;
+    top: 0vh;
+    left: 27vw;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 22px;
+    background: #2a386c;
+}
+
+.email img{
+    width: 46px;
+    height: 46px;
+    position: relative;
+    top: 1vh;
+}
+
+address {
+    border: 2px solid white;
+    height: 19vh;
+    width: 36vw;
+    position: relative;
+    top: 5vh;
+    left: 27vw;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 22px;
+    background: #2a386c;
+}
+
+address div {
+    position: relative;
+    top: 3vh;
+}
+
+footer {
+    position: relative;
+    top: 29.8vh;
+    height: 10vh;
+    background-color: #272525;
+    text-align: center;
+
+}
+
+.social {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.social a img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 1vh;
+    /* left: 47vw; */
+    padding: 0 20px;
+}
+
+.git{
+    filter: invert(180);
+}
+
+footer h4 {
+    position: relative;
+    top: -1vh;
+    font-weight: 100;
+}
+
+/* Media queries start from here for all devices */
+
+@media only screen and (max-width: 1300px) and (min-width: 951px) {
+    .leftSection {
+        top: 23vh;
+    }
+
+    hr {
+        top: 35vh;
+    }
+
+    .secondSection h1 {
+        top: 2vh;
+    }
+
+    .Project {
+        top: -25vh;
+    }
+
+    .cont {
+        top: -1vh;
+    }
+
+    .head {
+        left: 37vh;
+    }
+
+    .mobile {
+        width: 55vw;
+        left: 19vw;
+    }
+
+    .email {
+        width: 55vw;
+        left: 19vw;
+    }
+
+    address {
+        width: 55vw;
+        left: 19vw;
+    }
+}
+
+@media only screen and (max-width: 951px) and (min-width: 717px) {
+    .left{
+        position: relative;
+        left: 4vw;
+        font-size: 1.6rem;
+    }
+
+    .leftSection {
+        top: 8vh;
+    }
+
+    .btn {
+        width: 17vw;
+        top: 46vh;
+    }
+
+    hr {
+        top: 35vh;
+    }
+
+    .secondSection h1 {
+        top: 2vh;
+    }
+
+    .box1 {
+        height: 12px;
+    }
+
+    .school {
+        width: 34%;
+        left: 8vw;
+    }
+
+    .clg {
+        width: 34%;
+        left: 58vw;
+        top: 10vh;
+    }
+
+    .Project {
+        top: -25vh;
+    }
+
+    .cont {
+        top: -1vh;
+    }
+
+    .head {
+        left: 27vh;
+    }
+
+    .mobile {
+        width: 55vw;
+        left: 19vw;
+        font-size: 17px;
+    }
+
+    .email {
+        font-size: 17px;
+        width: 56vw;
+        left: 19vw;
+        font-weight: 100;
+    }
+
+    address {
+        width: 55vw;
+        left: 19vw;
+        font-size: 17px;
+    }
+
+    footer{
+        top: 31vh;
+    }
+}
+
+@media only screen and (max-width: 716px) and (min-width: 650px) {
+    nav{
+        width: 107%;
+    }
+    .left{
+        position: relative;
+        left: 4vw;
+        font-size: 1.6rem;
+    }
+
+    .leftSection {
+        top: 8vh;
+        left: 10vw;
+        width: 35%;
+    }
+
+    .btn {
+        width: 17vw;
+        top: 58vh;
+        left: -26vw;
+    }
+
+    .rightSection img{
+        width: 33vw;
+        right: 0vw;
+        top: 14vh;
+    }
+
+    hr {
+        top: 35vh;
+    }
+
+    .secondSection h1 {
+        top: 2vh;
+    }
+
+    .box1 {
+        height: 12px;
+    }
+
+    .school {
+        width: 34%;
+        left: 8vw;
+    }
+
+    .clg {
+        width: 34%;
+        left: 58vw;
+        top: 10vh;
+    }
+
+    .Project {
+        top: -25vh;
+    }
+
+    .cont {
+        top: -1vh;
+    }
+
+    .head {
+        left: 27vh;
+    }
+
+    .mobile {
+        width: 55vw;
+        left: 19vw;
+        font-size: 17px;
+    }
+
+    .email {
+        font-size: 17px;
+        width: 56vw;
+        left: 19vw;
+        font-weight: 100;
+    }
+
+    address {
+        width: 55vw;
+        left: 19vw;
+        font-size: 17px;
+    }
+
+    footer{
+        top: 31vh;
+    }
+}
+
+@media only screen and (max-width: 649px) and (min-width: 550px) {
+    nav{
+        width: 112%;
+    }
+
+    .left{
+        position: relative;
+        left: 4vw;
+        font-size: 1.6rem;
+    }
+
+    .right ul li{
+        font-size: 17px;
+    }
+
+    .leftSection {
+        left: 6vw;
+        top: 8vh;
+    }
+
+    .btn {
+        width: 19vw;
+        top: 65vh;
+    }
+
+    .rightSection img{
+        width: 33vw;
+        right: 0vw;
+        top: 14vh;
+    }
+
+    hr {
+        top: 35vh;
+    }
+
+    .secondSection h1 {
+        top: 2vh;
+    }
+
+    .box1 {
+        height: 12px;
+    }
+
+    .school {
+        width: 34%;
+        left: 8vw;
+    }
+
+    .clg {
+        width: 34%;
+        left: 58vw;
+        top: 10vh;
+    }
+
+    .more{
+        font-size: 26px;
+    }
+
+    .Project {
+        top: -25vh;
+    }
+
+    .cont {
+        top: -1vh;
+    }
+
+    .head {
+        left: 2vh;
+        font-size: 48px;
+    }
+
+    .mobile {
+        width: 70vw;
+        left: 4vw;
+        font-size: 23px;
+    }
+
+    .email {
+        width: 70vw;
+        left: 4vw;
+        font-size: 23px;
+    }
+
+    address {
+        width: 70vw;
+        left: 4vw;
+        font-size: 23px;
+    }
+
+    footer{
+        top: 31vh;
+        width: 112%;
+    }
+}
